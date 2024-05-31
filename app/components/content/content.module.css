@@ -1,0 +1,80 @@
+.services {
+  background-color: #ffffff !important;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  margin-top: 100px;
+}
+
+.services .mainNav {
+  min-height: 80px;
+  background: transparent;
+}
+
+.services .titles .titleNormal {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.services .titles .titleBold {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.services .titles .titleBottom {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #939393;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .services .titles .titleNormal {
+    font-size: 14px;
+  }
+
+  .services .titles .titleBold {
+    font-size: 16px;
+  }
+  .services .titles .titleBottom {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .services .titles .titleNormal {
+    font-size: 14px;
+  }
+
+  .services .titles .titleBold {
+    font-size: 16px;
+  }
+
+  .services .titles .titleBottom {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,172 @@
+.banner-mobile-style {
+  background: #ff69a4 !important;
+}
+
+.mainBanner {
+  background-color: #ff69a4;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 150px 120px 100px 120px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mainBanner:after {
+  content: "";
+  background-image: url(/bg.png);
+  background-color: #ffc0db;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.textHeader {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px !important;
+  font-weight: 600 !important;
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  color: #fff;
+}
+
+.mainBanner .leftContent {
+  margin-right: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.mainBanner .leftContent h2 {
+  z-index: 2;
+  position: relative;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.mainBanner .leftContent p {
+  margin-bottom: 45px;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+
+.mainBanner .leftContent .firstButton {
+  margin-right: 15px;
+}
+
+.mainBanner .leftContent .whiteButton {
+  display: inline-block;
+}
+
+.mainBanner .rightImage {
+  text-align: center;
+  position: relative;
+  z-index: 20;
+}
+
+.mainBanner .rightImage .img {
+  /* max-width: 644px; */
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
+
+.mainBanner .leftContent .whiteButton a {
+  font-weight: normal;
+  background-color: #7f167f;
+  color: #ffaa9b !important;
+  padding: 15px 25px;
+  border-radius: 12px;
+}
+
+.mainBanner .leftContent .whiteButton a:hover {
+  background-color: #ffaa9b;
+  color: #7f167f !important;
+  border: 1px solid #7f167f;
+}
+
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 100%;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+@media (min-width: 768px) {
+  .banner-slider-mobile {
+    display: block;
+    padding-top: 100px;
+  }
+
+  .mainBanner .banner-slider {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 110px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-slider-mobile {
+    display: flex;
+    padding-top: 100px;
+  }
+
+  .banner-slider-web {
+    display: none;
+  }
+
+  .mainBanner {
+    padding-top: 70px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .mainBanner:after {
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .textHeader {
+    font-size: 21px !important;
+  }
+
+  .mainBanner .leftContent {
+    margin-right: 60px !important;
+    margin-left: 60px !important;
+  }
+
+  .mainBanner .leftContent h2 {
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .mainBanner .leftContent .centeredButton {
+    text-align: center;
+  }
+
+  .mainBanner .banner-slider {
+    padding-bottom: 40px;
+  }
+
+  .carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+
+@media (max-width: 280px) {
+  .carousel-indicators button {
+    width: 8px !important;
+    height: 8px !important;
+  }
+}

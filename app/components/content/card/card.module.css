@@ -1,0 +1,122 @@
+.serviceItem {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  border-radius: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.serviceItem .icon {
+  margin-left: 0px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s;
+}
+
+.serviceItem .bannerImg {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+
+.serviceItem h4 {
+  transition: all 0.3s;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.serviceItem p {
+  transition: all 0.3s;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.serviceItem .title {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4a4a4a;
+  margin-top: 40px;
+}
+
+.serviceItem .paragraph {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #909090;
+}
+
+.serviceItem:hover h4,
+.serviceItem:hover p,
+.serviceItem:hover .text-button a {
+  color: #fff;
+}
+
+.serviceItem:hover {
+  /* background-image: url(../images/service-bg.jpg); */
+  background: linear-gradient(
+    to right,
+    rgb(255, 105, 164, 1),
+    rgb(255, 105, 164, 0.9),
+    rgb(255, 105, 164, 0.8),
+    rgb(255, 105, 164, 0.7),
+    rgb(255, 105, 164, 0.6),
+    rgb(255, 105, 164, 0.5)
+  );
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .serviceItem {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .serviceItem .icon {
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .serviceItem {
+    text-align: center;
+    padding: 30px;
+  }
+
+  .serviceItem .icon {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+
+  .serviceItem .right-content {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 415px) {
+  .serviceItem {
+    padding: 12px !important;
+  }
+}

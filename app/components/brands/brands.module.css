@@ -1,0 +1,114 @@
+/* .brandArea {
+  background-color: #ffffff !important;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  border-bottom: 1px solid #ffabcc;
+}
+
+.brandArea .mainNav {
+  min-height: 80px;
+  background: transparent;
+}
+
+.brandArea .mainNav .logo {
+  width: max-content;
+  height: auto;
+  max-width: 188px;
+  max-height: 70px;
+}
+
+@media (max-width: 920px) {
+  .brandArea {
+    margin-top: 10px !important;
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 821px) {
+  .brandArea {
+    margin-top: 10px !important;
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .brandArea {
+    margin-top: 20px !important;
+    height: 60px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .brandArea {
+    margin-top: 20px !important;
+    height: 60px !important;
+  }
+}
+
+@media (max-width: 541px) {
+  .brandArea {
+    margin-top: 10px !important;
+    height: 40px !important;
+  }
+}
+
+@media (max-width: 415px) {
+  .brandArea {
+    margin-top: 10px !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 376px) {
+  .brandArea {
+    margin-top: 10px !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 281px) {
+  .brandArea {
+    margin-top: 10px !important;
+    height: 20px !important;
+  }
+} */
+.brandArea {
+  background-color: #ffffff !important;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  height: auto;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  border-bottom: 1px solid #ffabcc;
+  padding: 0;
+}
+
+.brandArea .bgNavigation {
+  min-height: 80px;
+  background: transparent;
+}
+
+.rabbaniBrand {
+  width: max-content;
+  height: auto;
+  max-width: 188px;
+  max-height: 70px;
+}
+
+@media (max-width: 720px) {
+  .rabbaniBrand {
+    max-width: 40px;
+  }
+  .brandArea .bgNavigation {
+    min-height: 40px;
+  }
+}
